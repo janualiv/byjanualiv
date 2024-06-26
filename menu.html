@@ -88,6 +88,15 @@
 
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+  #contact {
+    position: fixed;
+    margin-left: 100px;
+  }
+  #contact:hover, #contact:focus{
+    background-color: #bab5b0;
+    padding: 5px;
+
+  }
 
 </style>
 </head>
@@ -106,7 +115,10 @@
 
     </div>
   </div>
-  <div style="background:#D3CCC5;width:420px;margin-left: auto;margin-right: auto;margin-top: 150px;"><p2 style="margin-left:32%;padding:3px;background-color: rgb(93, 172, 241);">Janualiv's Availability</p2><iframe src="https://www.availcalendar.com/print/23066?mode=2" width="420" height="470" frameborder="0" scrolling="no" style="margin-top:5px ;"></iframe></div>
+  <div style="background:#D3CCC5;width:420px;margin-left: auto;margin-right: auto;margin-top: 150px;"><p2 style="margin-left:32%;padding:3px;background-color:#bab5b0;">Janualiv's Availability</p2><iframe src="https://www.availcalendar.com/print/23066?mode=2" width="420" height="470" frameborder="0" scrolling="no" style="margin-top:5px ;"></iframe><div id="contact"><a href="http://wa.me/+628126338867" ><img src="images/Contact Me.png" width=200px></a></div></div>
+  
+  
+  
   <script>
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
